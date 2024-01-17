@@ -1,0 +1,16 @@
+name: MBanWords
+version: '${project.version}'
+main: me.matt.mbanwords.MBanWords
+api-version: '1.20'
+authors: [Mattgyve1990]
+description: The plugin censors words entered in the config
+commands:
+  mbw:
+    usage: /<command> <reload>
+    description: reload plugin
+permissions:
+  mbw.reload:
+    description: give permission for /mbw reload
+    default: op
+  mbw.bypass:
+    description: bypass censored
